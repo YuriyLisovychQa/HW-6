@@ -1,0 +1,466 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border-style: none;
+}
+
+@font-face {
+   font-family: 'Helvetica';
+   src: url(fonts/Helvetica/HelveticaRegular/HelveticaRegular.ttf) format('truetype'),
+   url(fonts/Helvetica/HelveticaRegular/HelveticaRegular.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'Avenir';
+   src: url(fonts/Avenir/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
+
+body, html {
+   background: linear-gradient(180deg, #F6FAFD 0%, #fff 19.4%);
+}
+
+.page {
+   width: 1600px;
+   margin: 50px 112px 0px 240px;
+}
+
+.header_container {
+   width: 1248px;
+   height: 754px;
+   background-image: url(image/png/background\ header.png);
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   margin-bottom: 99.20px;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   width: 1120px;
+   height: 60px;
+}
+
+.header_logo {
+   width: 49px;
+   height: 35px;
+   padding-right: 121px;
+}
+
+.nav_header {
+   width: 322px;
+   height: 30px;
+   font-family: 'Avenir', sans-serif;
+   letter-spacing: 0.05em;
+}
+
+.nav_list_header {
+   display: flex;
+}
+
+ul {
+   list-style: none;
+}
+
+.nav_list_header li {
+   width: 100%;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 160%;
+   color: rgba(33, 35, 83, 1);
+}
+
+#header_li_about {
+   font-weight: 800;
+}
+
+a {
+   text-decoration: none;
+}
+
+.btn_request_demo {
+   background: #FFFFFF;
+   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+   border-radius: 50px;
+   width: 210px;
+   height: 60px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.btn_img_request_demo {
+   width: 20px;
+   height: 14px;
+}
+
+.btn_request_text {
+   width: 112px;
+   height: 26px;
+   font-weight: 800;
+   font-size: 15px;
+   font-family: 'Avenir', sans-serif;
+   line-height: 160%;
+   letter-spacing: 0.05em;
+   color: rgba(33, 35, 83, 1);
+}
+
+.headline {
+   width: 645px;
+   height: 464px;
+   padding-top: 140px;
+}
+
+.headline_title {
+   width: 645px;
+   height: 184px;
+   font-family: 'Helvetica', sans-serif;
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 88px;
+   color: rgba(33, 35, 83, 1);
+}
+
+.headline_text {
+   width: 380px;
+   height: 120px;
+   font-family: 'Avenir';
+   font-weight: 500;
+   font-size: 18px;
+   color: rgba(75, 93, 104, 1);
+   line-height: 160%;
+   padding-top: 50px;
+}
+
+.btn_headline_learn_more {
+   width: 170px;
+   height: 60px;
+   background-color: rgba(156, 105, 226, 1);
+   border-radius: 50px;
+}
+
+.btn_headline_learn_more_text {
+   width: 96px;
+   height: 29px;
+   font-family: 'Avenir';
+   font-size: 18px;
+   font-weight: 800;
+   line-height: 29px;
+   align-items: center;
+   color: rgba(255, 255, 255, 1);
+}
+
+.btn_main_headline {
+   padding-top: 100px;
+}
+
+.promo_container {
+   width: 1117px;
+   height: 560px;
+   background: rgba(240, 99, 184, 0.15);
+   border-radius: 50px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 150px;
+}
+
+.promo_photo {
+   width: 477px;
+   height: 504px;
+   padding-top: 31px;
+   padding-left: 11px;
+   padding-bottom: 24px;
+}
+
+.promo_article {
+   width: 475px;
+   height: 310px;
+   padding-top: 125px;
+   padding-right: 92px;
+}
+
+.promo_title {
+   height: 100px;
+   color: rgba(33, 35, 83, 1);
+   font-family: 'Helvetica', sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+}
+
+.promo_text {
+   padding-top: 40px;
+   height: 170px;
+   font-family: 'Avenir', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 29px;
+   color: rgba(75, 93, 104, 1);
+}
+
+.features_container {
+   width: 1136.85px;
+   height: 1002.06px;
+   margin-bottom: 174px;
+}
+
+.features {
+   display: flex;
+}
+
+.features_article {
+   width: 584px;
+   height: 160px;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 149px;
+}
+
+.features_title {
+   width: 405px;
+   height: 52px;
+   font-family: 'Helvetica', sans-serif;
+   font-weight: 700;
+   line-height: 52px;
+   font-size: 40px;
+   color: rgba(33, 35, 83, 1);
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+
+.features_text {
+   height: 58px;
+   font-family: 'Avenir', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   color: rgba(75, 93, 104, 1);
+   line-height: 29px;
+}
+
+.features_search_data {
+   display: flex;
+   justify-content: space-between;
+   width: 519.27px;
+   height: 355px;
+}
+
+.features_article_title {
+   width: 200px;
+   height: 50px;
+   font-family: 'Helvetica', sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 31,2px;
+   color: rgba(33, 35, 83, 1);
+}
+
+.features_article_text {
+   width: 220px;
+   height: 160px;
+   font-family: 'Avenir';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 25,6px;
+   color: rgba(75, 93, 104, 1);
+}
+
+.btn_features {
+   font-family: 'Avenir', sans-serif;
+   font-weight: 900;
+   font-size: 16px;
+   line-height: 25,6px;
+   letter-spacing: 0.5%;
+   color: rgba(33, 35, 83, 1);
+}
+
+.features_arrow{
+   width: 20px;
+   height: 14px;
+   vertical-align: middle;
+}
+
+.btn_features_learn_more {
+   width: 127px;
+   height: 26px;
+}
+
+.features_hours_access {
+   width: 543,85px;
+   height: 345,55px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.testimonials_container {
+   width: 1118px;
+   height: 709px;
+   background: #9C69E2;
+   border-radius: 50px;
+   padding: 109px 76px 130px 93px;
+   margin-bottom: 150px;
+}
+
+.testimonials_title {
+   font-family: 'Helvetica', sans-serif;
+   font-size: 40px;
+   line-height: 52px;
+   color: rgba(255, 255, 255, 1);
+}
+
+.testimonials_card {
+   width: 949px;
+   height: 330px;
+   background-color: #fff;
+   border-radius: 20px;
+   margin-top: 88px;
+   display: flex;  
+   font-family: 'Avenir', sans-serif;
+   font-size: 18px;
+}
+
+.testimonials_photo {
+   width: 132px;
+   height: 90px;
+   margin: 60px 44px 180px 103px;
+}
+
+.testimonials_title_name {
+   width: 250px;
+   height: 29px;
+   font-weight: 900;
+   line-height: 29px;
+   letter-spacing: 0.5%;
+   color:rgba(33, 35, 83, 1);
+   margin-top: 80px;
+}
+
+.testimonials_text {
+   width: 566.50px;
+   height: 130px;
+   font-weight: 400;
+   line-height: 32,4px;
+   padding-top: 19px;
+}
+
+.testimonials_nav {
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.testimonials_arrow {
+   background-color: #9C69E2;
+}
+
+.testimonials_arrow_left {
+   padding-right: 20px;
+}
+
+.hr_line {
+   display: block;
+   height: 1px;
+   border-top: 1px solid rgba(156, 105, 226, 1);
+   margin: 1em 0;
+   padding: 0;
+   margin-bottom: 100px;
+}
+
+.footer_container {
+   width: 1120px;
+   height: 670px;
+   margin-bottom: 90px;
+   justify-content: space-evenly;
+}
+
+.footer_text {
+   width: 584px;
+   height: 101px;
+}
+
+
+.btn_footer {
+   display: flex;
+   width: 450px;
+}
+
+.btn_learn_more_footer {
+   background-color: rgba(240, 99, 184, 1);
+}
+
+.btn_request_footer {
+   margin-left: 30px;
+}
+
+.footer_nav {
+   margin-top: 150px;
+   font-family: 'Avenir', sans-serif;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer_block {
+   width: 1117px;
+   height: 100px;
+   display: flex;
+}
+
+.footer_article {
+   font-weight: 700;
+}
+
+.footer_data_warehouse {
+   display: flex;
+   align-items: center;
+}
+
+.footer_logo {
+   width: 49px;
+   height: 35px;
+   margin-right: 20px;
+}
+
+.footer_title {
+   margin-top: 20px;
+}
+
+.footer_text_contacts {
+   margin-top: 65px;
+   height: 60px;
+   width: 335px;
+   height: 65px;
+}
+
+.footer_text_address, .footer_text_email, .footer_text_reserved {
+   margin-bottom: 10px;
+   line-height: 29px;
+   font-size: 16px;
+   letter-spacing: 1%;
+   font-weight: 500;
+}
+
+.footer_text_reserved {
+   padding-top: 118px;
+}
+
+.footer_about {
+   width: 166px;
+   height: 220px;
+}
+
+.footer_text_nav {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 40px;
+   color: rgba(33, 35, 83, 1);
+}
+
+.footer_nav_items {
+   margin-top: 30px;
+}
+
+.footer_contact_us {
+   margin-top: 180px;
+   margin-left: 120px;
+}
